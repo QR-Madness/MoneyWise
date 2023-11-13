@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656199987175",
+    "project_id": "moneywise-devproject",
+    "storage_bucket": "moneywise-devproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656199987175:android:9b6a643d6cbbd67db71742",
+        "android_client_info": {
+          "package_name": "com.example.moneywise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWUyu4VyTecwR527nfOfeufoJJRznDlgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
