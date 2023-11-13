@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoneyWise</string>
+    <string name="app_version">v.1.0</string>
+    <string name="motto">Make your money wiser.</string>
 </resources>
