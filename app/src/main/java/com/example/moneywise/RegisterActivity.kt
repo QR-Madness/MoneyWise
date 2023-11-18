@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -23,8 +24,11 @@ class RegisterActivity : AppCompatActivity() {
         firebaseAuth = Firebase.auth
 
         // define UI components
-        submitBtn = findViewById(R.id.RegisterBtn)
-
+        submitBtn = findViewById(R.id.btn_signUpasInd)
+        val textViewIndId = findViewById<TextView>(R.id.edit_indId)
+        val textViewIndFirstName = findViewById<TextView>(R.id.edit_indFirstName)
+        val textViewIndLastName = findViewById<TextView>(R.id.edit_indLastName)
+        val textViewIndpassword = findViewById<TextView>(R.id.edit_setIndpassword)
         // Set listener(s)
         submitBtn.setOnClickListener {
             registerUser()

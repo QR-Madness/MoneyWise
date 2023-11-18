@@ -11,4 +11,9 @@
     <string name="passwordIndInput">Enter your password</string>
     <string name="btn_signInInd">SIGN IN</string>
     <string name="btn_signUp">SIGN UP</string>
+    <string name="signup_page_name">SignUp As An Indiviual</string>
+    <string name="enter_your_lastname">Enter your LastName</string>
+    <string name="enter_your_firstname">Enter your FirstName</string>
+    <string name="aboutDescription">MoneyWise is a finance management app that helps you track your expenses and manage your budget efficiently.</string>
+    <string name="developmentInfo">Developed by Team 5\nContact: team5@centennialtest.com</string>
 </resources>

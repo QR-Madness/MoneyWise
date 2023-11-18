@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/aboutUsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About MoneyWise"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@id/appIcon"
+        android:textColor="@color/Crimson"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/appDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutUsHeader"
+        android:layout_marginTop="64dp"
+        android:padding="22dp"
+        android:text="@string/aboutDescription"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/developerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appDescription"
+        android:layout_marginTop="238dp"
+        android:padding="16dp"
+        android:text="@string/developmentInfo"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp" />
+
+</RelativeLayout>
