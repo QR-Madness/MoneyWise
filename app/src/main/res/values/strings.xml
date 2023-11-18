@@ -2,4 +2,13 @@
     <string name="app_name">MoneyWise</string>
     <string name="app_version">v.1.0</string>
     <string name="motto">Make your money wiser.</string>
+    <string name="logo">logo</string>
+    <string name="login_page_name">Login Page</string>
+    <string name="usernameAdminInput">Enter your UserID</string>
+    <string name="passwordAdminInput">Enter your password</string>
+    <string name="btn_signInAdmin">SIGN IN</string>
+    <string name="usernameIndInput">Enter your UserID</string>
+    <string name="passwordIndInput">Enter your password</string>
+    <string name="btn_signInInd">SIGN IN</string>
+    <string name="btn_signUp">SIGN UP</string>
 </resources>
