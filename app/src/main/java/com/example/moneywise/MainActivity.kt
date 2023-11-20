@@ -21,17 +21,17 @@ class MainActivity : ComponentActivity() {
         btnAbout = findViewById(R.id.btn_aboutUs)
 
         btnInd.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
         }
 
         btnAdmin.setOnClickListener {
-            val intent = Intent(this, AdminLoginActivity::class.java)
+            val intent = Intent(this@MainActivity, AdminLoginActivity::class.java)
             startActivity(intent)
         }
 
         btnAbout.setOnClickListener {
-            val intent = Intent(this, AboutUsActivity::class.java)
+            val intent = Intent(this@MainActivity, AboutUsActivity::class.java)
             startActivity(intent)
         }
     }
