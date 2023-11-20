@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@nativescript/firebase-core": "^3.2.0"
+  }
+}
