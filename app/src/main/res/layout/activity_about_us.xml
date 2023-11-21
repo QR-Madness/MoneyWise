@@ -38,17 +38,6 @@
         android:textColor="@color/Crimson"
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/developerInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/appDescription"
-        android:layout_marginTop="238dp"
-        android:padding="16dp"
-        android:text="@string/developmentInfo"
-        android:textColor="@color/Crimson"
-        android:textSize="20sp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,5 +55,18 @@
             android:text="Back to Home" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/developerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appDescription"
+        android:layout_marginTop="238dp"
+        android:padding="16dp"
+        android:text="@string/developmentInfo"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp" />
+
+
 
 </RelativeLayout>

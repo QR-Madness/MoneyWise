@@ -4,8 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.activity.ComponentActivity
 
-class AboutUsActivity : AppCompatActivity() {
+class AboutUsActivity : ComponentActivity() {
 
     lateinit var btnBack: Button
 
