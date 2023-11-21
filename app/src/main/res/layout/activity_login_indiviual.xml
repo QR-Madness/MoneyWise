@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/login_page_name"
+    android:textSize="28sp"
+    android:textColor="@color/Crimson"
+    />
+
+<EditText
+    android:id="@+id/edit_usernameInd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/usernameIndInput"
+    android:textSize="22sp"
+    android:textColor="@color/Crimson"
+    />
+<EditText
+    android:id="@+id/edit_passwordInd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:hint="@string/passwordIndInput"
+    android:inputType="textPassword"
+    android:textColor="@color/Crimson"
+    />
+
+<Button
+    android:id="@+id/btn_signInInd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@color/Crimson"
+    android:text="@string/btn_signInInd"
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/btn_signUp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@color/Crimson"
+    android:text="@string/btn_signUp"
+    android:textSize="20sp" />
+</LinearLayout >
