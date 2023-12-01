@@ -1,5 +1,6 @@
 package com.example.moneywise
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -56,12 +57,15 @@ class RegisterActivity : ComponentActivity() {
         )
         // TODO complete this register controller
         // Ref: https://firebase.google.com/docs/firestore/quickstart#kotlin+ktx
-        val userCreationResult = firebaseAuth.createUserWithEmailAndPassword("someemail", "somepassword")
+        val userCreationResult = firebaseAuth.createUserWithEmailAndPassword(username, password)
         userCreationResult.addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 val createResult = db.collection("user-data").add(user)
                 createResult.addOnCompleteListener {
                     Log.w(TAG, "Successful registration")
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 }
                 createResult.addOnFailureListener {
                     Log.w(TAG, "Failed to insert registration firestore records")
