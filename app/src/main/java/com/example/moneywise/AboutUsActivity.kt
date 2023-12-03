@@ -1,14 +1,13 @@
 package com.example.moneywise
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
 
 class AboutUsActivity : ComponentActivity() {
 
-    lateinit var btnBack: Button
+    private lateinit var btnBack: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

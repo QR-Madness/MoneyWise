@@ -1,7 +1,6 @@
 package com.example.moneywise
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -37,13 +36,14 @@ class RegisterActivity : ComponentActivity() {
         val textViewIndFirstName = findViewById<TextView>(R.id.edit_indFirstName)
         val textViewIndLastName = findViewById<TextView>(R.id.edit_indLastName)
         val textViewIndpassword = findViewById<TextView>(R.id.edit_setIndpassword)
-        val username = textViewIndId.text.toString()
-        val firstName = textViewIndFirstName.text.toString()
-        val lastName = textViewIndLastName.text.toString()
-        val password = textViewIndpassword.text.toString()
+
 
         // Set listener(s)
         submitBtn.setOnClickListener {
+            val username = textViewIndId.text.toString()
+            val firstName = textViewIndFirstName.text.toString()
+            val lastName = textViewIndLastName.text.toString()
+            val password = textViewIndpassword.text.toString()
             registerUser(username, firstName, lastName, password)
         }
     }

@@ -1,7 +1,6 @@
 package com.example.moneywise
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -15,8 +14,8 @@ import com.google.firebase.ktx.Firebase
 class LoginActivity : ComponentActivity() {
     // Firebase access
     private lateinit var firebaseAuth: FirebaseAuth
-    lateinit var signInButton: Button
-    lateinit var signUpButton: Button
+    private lateinit var signInButton: Button
+    private lateinit var signUpButton: Button
     private val TAG = "Auth: Login"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,8 +52,8 @@ class LoginActivity : ComponentActivity() {
                 startActivity(intent)
                 Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
             } else {
-                Log.w(TAG, "Unsuccessful")
-                Toast.makeText(this, "Login Unsuccessful", Toast.LENGTH_SHORT).show()
+                Log.i(TAG, "Unsuccessful: ${task.exception?.message}")
+                Toast.makeText(this, "Login unsuccessful: ${task.exception?.message}", Toast.LENGTH_LONG).show()
             }
         }
     }
