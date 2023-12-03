@@ -13,6 +13,19 @@
         android:theme="@style/Theme.MoneyWise"
         tools:targetApi="31">
         <activity
+            android:name=".ReportingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BudgetingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
         <activity
