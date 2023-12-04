@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "656199987175",
-    "project_id": "moneywise-devproject",
-    "storage_bucket": "moneywise-devproject.appspot.com"
+    "project_number": "438261681897",
+    "project_id": "moneywise-263ba",
+    "storage_bucket": "moneywise-263ba.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:656199987175:android:9b6a643d6cbbd67db71742",
+        "mobilesdk_app_id": "1:438261681897:android:357e3924a4d6f33e426a78",
         "android_client_info": {
           "package_name": "com.example.moneywise"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCWUyu4VyTecwR527nfOfeufoJJRznDlgg"
+          "current_key": "AIzaSyDpN2MpZ-Y6XG-uXT4vFiNXmZZV_5XVMT0"
         }
       ],
       "services": {

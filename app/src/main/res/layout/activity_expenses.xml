@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08162E"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textSize="28sp"
+        android:textColor="@color/Crimson"
+        />
+
+    <EditText
+        android:id="@+id/edit_expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount"
+        android:textSize="20sp"
+        android:textColor="@color/Crimson"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:id="@+id/edit_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Category"
+        android:textSize="20sp"
+        android:textColor="@color/Crimson"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Expenses" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08162E"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Income" />
+
+    </LinearLayout>
+
+</LinearLayout>

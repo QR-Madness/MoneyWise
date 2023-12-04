@@ -16,7 +16,10 @@
             android:name=".ReportingActivity"
             android:exported="false" />
         <activity
-            android:name=".BudgetingActivity"
+            android:name=".ExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeActivity"
             android:exported="false" />
         <activity
             android:name=".ReceiptActivity"

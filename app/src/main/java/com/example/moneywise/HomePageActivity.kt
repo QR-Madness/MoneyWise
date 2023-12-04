@@ -32,12 +32,12 @@ class HomePageActivity : ComponentActivity() {
 
         budgetingButton.setOnClickListener {
             Log.w(TAG, "Budgeting Button clicked")
-            val intent = Intent(this, BudgetingActivity::class.java)
+            val intent = Intent(this, ExpensesActivity::class.java)
             startActivity(intent)
         }
 
-        budgetingButton.setOnClickListener {
-            Log.w(TAG, "Receupt Button clicked")
+        receiptButton.setOnClickListener {
+            Log.w(TAG, "Receipt Button clicked")
             val intent = Intent(this, ReceiptActivity::class.java)
             startActivity(intent)
         }

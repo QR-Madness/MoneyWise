@@ -42,18 +42,14 @@ class LoginActivity : ComponentActivity() {
     }
 
     private fun loginUser(indUserId: String, password: String) {
-        // TODO parse & validate inputs into a model
-        // TODO complete this register controller
         val userLoginResult = firebaseAuth.signInWithEmailAndPassword(indUserId, password)
         userLoginResult.addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 Log.w(TAG, "Successful")
                 val intent = Intent(this, HomePageActivity::class.java)
                 startActivity(intent)
-                Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
             } else {
                 Log.i(TAG, "Unsuccessful: ${task.exception?.message}")
-                Toast.makeText(this, "Login unsuccessful: ${task.exception?.message}", Toast.LENGTH_LONG).show()
             }
         }
     }
