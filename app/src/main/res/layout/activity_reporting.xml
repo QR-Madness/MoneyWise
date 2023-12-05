@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportingActivity">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Page Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reporting/Analytics Overview"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <!-- Total Income -->
+    <TextView
+        android:id="@+id/textTotalIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Income: $0.00"
+        android:textSize="18sp"
+        android:layout_marginTop="96dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Total Expenses -->
+    <TextView
+        android:id="@+id/textTotalExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Expenses: $0.00"
+        android:textSize="18sp"
+        android:layout_below="@id/textTotalIncome"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Net Profit -->
+    <TextView
+        android:id="@+id/textNetProfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Profit: $0.00"
+        android:textSize="18sp"
+        android:layout_below="@id/textTotalExpenses"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+
+    <!-- BarChart for Financial Trends -->
+<!--    <com.github.mikephil.charting.charts.BarChart-->
+<!--        android:id="@+id/barChart"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_below="@id/textNetProfit"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginEnd="16dp" />-->
+
+</RelativeLayout>

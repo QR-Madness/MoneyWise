@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BudgetIncomeActivity">
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/Crimson"
+        android:text="@string/budget_income_management"
+        android:textSize="26sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Budget Setting Section -->
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_budgets"
+        android:textStyle="bold"
+        android:textColor="@color/Crimson"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="26dp"/>
+
+    <!-- Category 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/spinnerCategory1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textSize="20sp"
+            android:textColor="@color/Crimson"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Amount SeekBar -->
+        <SeekBar
+            android:id="@+id/seekBarAmount1"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:textColor="@color/Crimson"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <!-- Dynamic button that should adds new Spinner and SeekBar pairs to the layout each time the "Add Category" button is clicked. -->
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:textColor="@color/Crimson"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_category"/>
+    <!-- Save Budget Button -->
+    <Button
+        android:id="@+id/saveBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/Crimson"
+        android:text="@string/save_budget"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_income"
+        android:textStyle="bold"
+        android:textColor="@color/Crimson"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Income Amount -->
+    <EditText
+        android:id="@+id/editTextIncomeAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_income_amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Income Category -->
+    <Spinner
+        android:id="@+id/spinnerIncomeCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp"
+        android:textColor="@color/Crimson"
+        android:textSize="24sp" />
+
+    <!-- Income Date -->
+    <EditText
+        android:id="@+id/editTextIncomeDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_income_date"
+        android:inputType="date"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Income Description -->
+    <EditText
+        android:id="@+id/editTextIncomeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_income_description"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Save Income Button -->
+    <Button
+        android:id="@+id/saveIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:text="@string/save_expense"/>
+
+
+
+</LinearLayout>

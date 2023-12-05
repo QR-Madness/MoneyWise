@@ -16,4 +16,18 @@
     <string name="enter_your_firstname">Enter your FirstName</string>
     <string name="aboutDescription">MoneyWise is a finance management app that helps you track your expenses and manage your budget efficiently.</string>
     <string name="developmentInfo">Developed by Team 5\nContact: team5@centennialtest.com</string>
+    <string name="enter_expense_date_e_g_yyyy_mm_dd">Enter Expense Date (e.g., YYYY-MM-DD)</string>
+    <string name="enter_expense_description">Enter Expense Description</string>
+    <string name="save_expense">Save Expense</string>
+    <string name="enter_expense_amount">Enter Expense Amount</string>
+    <string name="input_expenses">Input Expenses</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="add_category">Add Category</string>
+    <string name="set_budgets">Set Budgets</string>
+    <string name="budget_income_management">Budget/Income Management</string>
+    <string name="input_income">Input Income</string>
+    <string name="enter_income_amount">Enter Income Amount</string>
+    <string name="enter_expense_date">Enter Expense Date</string>
+    <string name="enter_income_date">Enter Income Date</string>
+    <string name="enter_income_description">Enter Income Description</string>
 </resources>
