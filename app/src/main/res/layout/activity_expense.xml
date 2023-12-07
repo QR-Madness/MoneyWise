@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ExpenseManagementActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense Management"
+        android:textStyle="bold"
+        android:textColor="@color/Crimson"
+        android:textSize="28sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+    <!-- Expense Input Section -->
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_expenses"
+        android:textStyle="bold"
+        android:textColor="@color/Crimson"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Expense Amount -->
+    <EditText
+        android:id="@+id/editTextExpenseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_expense_amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Expense Category -->
+    <Spinner
+        android:id="@+id/spinnerExpenseCategory"
+        android:layout_width="match_parent"
+        android:textColor="@color/Crimson"
+        android:minHeight="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Expense Date -->
+    <EditText
+        android:id="@+id/editTextExpenseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_expense_date"
+        android:inputType="date"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Expense Description -->
+    <EditText
+        android:id="@+id/editTextExpenseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:textSize="20sp"
+        android:hint="@string/enter_expense_description"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Save Expense Button -->
+    <Button
+        android:id="@+id/saveExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/Crimson"
+        android:text="@string/save_expense"/>
+
+    <!-- RecyclerView for Expense Table :Should show category and expense amount-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExpenseTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout >

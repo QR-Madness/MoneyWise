@@ -30,7 +30,21 @@
         <activity
             android:name=".UpdateAccountActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".RegisterAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModifyPersonalInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BudgetIncomeActivity"
+            android:exported="false" />
         <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
@@ -53,10 +67,8 @@
             android:theme="@style/Theme.MoneyWise">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

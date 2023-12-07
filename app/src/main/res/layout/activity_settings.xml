@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".UpdateAccountActivity">
+    tools:context=".SettingsActivity">
     <!-- Title -->
     <TextView
         android:layout_width="wrap_content"
