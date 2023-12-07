@@ -27,6 +27,9 @@
         <activity
             android:name=".SettingsActivity"
             android:exported="false" />
+        <activity
+            android:name=".UpdateAccountActivity"
+            android:exported="false" />
 
         <activity
             android:name=".AboutUsActivity"
