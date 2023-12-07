@@ -25,7 +25,7 @@ class ReportingActivity : ComponentActivity() {
 
         db = Firebase.firestore
 
-        reportContainer = findViewById(R.id.reportContainer)
+//        reportContainer = findViewById(R.id.reportContainer)
         expensesText = findViewById(R.id.expensesText)
         incomeText = findViewById(R.id.incomeText)
 

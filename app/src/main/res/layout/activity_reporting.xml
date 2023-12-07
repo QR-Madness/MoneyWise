@@ -26,7 +26,7 @@
 
     <!-- Total Income -->
     <TextView
-        android:id="@+id/textTotalIncome"
+        android:id="@+id/incomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total Income: $0.00"
@@ -36,12 +36,12 @@
 
     <!-- Total Expenses -->
     <TextView
-        android:id="@+id/textTotalExpenses"
+        android:id="@+id/expensesText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total Expenses: $0.00"
         android:textSize="18sp"
-        android:layout_below="@id/textTotalIncome"
+        android:layout_below="@id/incomeText"
         android:layout_marginTop="8dp"
         android:layout_marginStart="16dp" />
 
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Net Profit: $0.00"
         android:textSize="18sp"
-        android:layout_below="@id/textTotalExpenses"
+        android:layout_below="@id/expensesText"
         android:layout_marginTop="8dp"
         android:layout_marginStart="16dp" />
 
