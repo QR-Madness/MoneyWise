@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ModifyPersonalInformationActivity">
+
+    <!-- Title for Modify Personal Information -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/Crimson"
+        android:text="Modify Personal Information"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Input fields for personal information -->
+
+    <!-- Example: Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        android:textColor="@color/Crimson"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <!-- Example: Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Crimson"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <!-- Add more input fields as needed -->
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSavePersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/Crimson"
+        android:text="Save Personal Information" />
+</LinearLayout>
