@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MoneyWise"
         tools:targetApi="31">
         <activity
+            android:name=".ReportingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterAdminActivity"
             android:exported="false" />
         <activity
@@ -22,16 +40,10 @@
             android:name=".ModifyPersonalInformationActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingsActivity"
-            android:exported="false" />
-        <activity
             android:name=".ExpenseManagementActivity"
             android:exported="false" />
         <activity
             android:name=".BudgetIncomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ReportingActivity"
             android:exported="false" />
         <activity
             android:name=".AboutUsActivity"
@@ -46,16 +58,17 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MoneyWise">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

@@ -37,8 +37,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
 
     <LinearLayout
-        android:layout_width="342dp"
-        android:layout_height="146dp"
+        android:layout_width="362dp"
+        android:layout_height="282dp"
         android:layout_marginTop="112dp"
         android:layout_gravity="center"
         android:orientation="vertical"
@@ -69,6 +69,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ADMIN" />
+
+        <Button
+            android:id="@+id/btn_aboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:text="About Us" />
     </LinearLayout>
 
     <View
